@@ -1,3 +1,6 @@
+require "open-uri"
+require "nokogiri"
+
 class GetRequester
   attr_accessor :url
 
